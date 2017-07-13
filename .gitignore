@@ -1,3 +1,6 @@
 .vagrant/
 chef-server/secrets/admin.pem
 secrets/admin.pem
+.chef/trusted_certs/chef-server_test.crt
+**/*.pem
+**/*.crt
