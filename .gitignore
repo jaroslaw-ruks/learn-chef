@@ -1,1 +1,3 @@
 .vagrant/
+chef-server/secrets/admin.pem
+secrets/admin.pem
