@@ -1,0 +1,3 @@
+knife ssl fetch
+knife ssl check
+knife cookbook upload {cookbook_name}
