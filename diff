@@ -16,3 +16,6 @@ knife role list
 knife role show web
 knife node run_list set node1-ubuntu "role[web]"
 knife node show node1-ubuntu --run-list
+
+
+https://learn.chef.io/modules/manage-a-node-chef-server/ubuntu/virtualbox/run-chef-client-periodically#/
