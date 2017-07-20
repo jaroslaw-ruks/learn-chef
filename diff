@@ -1,4 +1,4 @@
-o#!/bin/bash
+#!/bin/bash
 echo "10.1.1.33 chef-server.test" | tee -a /etc/hosts10.1.1.33 chef-server.test
 
 knife bootstrap localhost --ssh-port 2200 --ssh-user vagrant --sudo --identity-file ~/Programowanie/learn-chef/chef-server/.vagrant/machines/node1-ubuntu/virtualbox/private_key --node-name node1-ubuntu --run-list 'recipe[apache2]'
@@ -17,3 +17,4 @@ knife node run_list set node1-ubuntu "role[web]"
 knife node show node1-ubuntu --run-list
 
 https://learn.chef.io/modules/local-development/ubuntu/virtualbox/apply-a-cookbook#/
+
