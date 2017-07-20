@@ -10,8 +10,6 @@ knife ssh 10.1.1.34 'sudo chef-client' --manual-list --ssh-user vagrant --identi
 berks install, 
 berks upload
 
-
-
 knife role from file roles/web.json 
 knife role list
 knife role show web
