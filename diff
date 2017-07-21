@@ -16,4 +16,6 @@ knife role show web
 knife node run_list set node1-ubuntu "role[web]"
 knife node show node1-ubuntu --run-list
 
+ohai, system profiler 
+
 https://learn.chef.io/modules/local-development/ubuntu/virtualbox/apply-a-cookbook#/
