@@ -7,6 +7,8 @@ https://docs.chef.io/knife_bootstrap.html
 
 knife ssh 10.1.1.34 'sudo chef-client' --manual-list --ssh-user vagrant --identity-file ~/Programowanie/learn-chef/chef-server/.vagrant/machines/node1-ubuntu/virtualbox/private_key
 
+git clone https://github.com/learn-chef/learn_chef_apache2.git
+
 berks install, 
 berks upload
 
@@ -16,6 +18,14 @@ knife role list
 knife role show web
 knife node run_list set node1-ubuntu "role[web]"
 knife node show node1-ubuntu --run-list
+knife status 'role:web' --run-list
+chef serwer mangae
+	knife opc 
+	https://docs.chef.io/plugin_knife_opc.html
 
 
-https://learn.chef.io/modules/manage-a-node-chef-server/ubuntu/virtualbox/run-chef-client-periodically#/
+knife node delete node1-ubuntu --yes
+knife client delete node1-ubuntu --yes
+knife cookbook delete learn_chef_apache2 --all --yes
+
+https://learn.chef.io/modules/local-development#/
