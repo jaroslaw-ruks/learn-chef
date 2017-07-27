@@ -30,4 +30,7 @@ knife cookbook delete learn_chef_apache2 --all --yes
 https://learn.chef.io/modules/local-development#/
 ohai, system profiler 
 
-https://learn.chef.io/modules/beyond-the-basics/what-happens-during-a-chef-client-run#/
+
+https://learn.chef.io/tracks/local-development-and-testing#/
+https://learn.chef.io/modules/unit-test-with-chefspec#/
+https://learn.chef.io/modules/unit-test-with-chefspec/linux/create-a-multiplatform-cookbook#/
